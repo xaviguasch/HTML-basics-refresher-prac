@@ -10,5 +10,35 @@
     <a target="_blank" href="https://www.youtube.com/watch?v=wvw_iAxhl2g"
       ><img src="./icons/iconmonstr-youtube-6.svg" alt="play icon"
     /></a>
+
+    <h1>Forms</h1>
+    <form action="/">
+      <label for="user">Username</label>
+      <input
+        maxlength="12"
+        name="user"
+        type="text"
+        id="user"
+        placeholder="insert text here"
+        required
+      />
+      <label for="email">Email</label>
+      <input name="email" type="email" id="email" required />
+      <select name="products" id="product">
+        <option value="Macbook 2018">Macbook</option>
+        <option value="iPhone 11">iPhone</option>
+      </select>
+      <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <form action="">
+      <input type="radio" name="products" value="macbook" />
+      <input type="radio" name="products" value="iphone" />
+      <input type="radio" name="products" value="tablet" />
+      <input type="radio" name="products" value="earbuds" />
+      <button type="submit">Submit</button>
+    </form>
   </body>
 </html>
